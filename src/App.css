@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.calc-grid {
+  margin-top: 15px;
+  border: 1px solid black;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 10rem 10rem;
+}
+
+.buttons {
+  border: 1px solid red;
+
+  display: grid;
+  grid-template-columns: 5rem 5rem;
+}
+
+.display-btns {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.operation-btns {
+}
+
+.number-btns {
+}
